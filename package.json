@@ -1,0 +1,30 @@
+{
+  "name": "kittents",
+  "version": "1.0.0",
+  "description": "web service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/application.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/William0Friend/kittenTS.git"
+  },
+  "author": "William0Friend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/William0Friend/kittenTS/issues"
+  },
+  "homepage": "https://github.com/William0Friend/kittenTS#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
